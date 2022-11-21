@@ -274,6 +274,7 @@ ul li {
 }
 .pr-item:hover ul {
     opacity: 1;
+    transition: 1s;
 }
 
 
