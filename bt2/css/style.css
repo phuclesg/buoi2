@@ -249,6 +249,34 @@ ul li {
 .cms-title {
     margin: 80px 0;
 }
+.pr-item ul {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    opacity: 0;
+    transition: 1s;
+}
+.pr-item ul li i {
+    font-size: 16px;
+    color: #fff;
+}
+.pr-item ul li {
+    background: #F16214;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 10px;
+    transition: 1s;
+}
+.pr-item ul li:hover {
+    background: #000000;
+}
+.pr-item:hover ul {
+    opacity: 1;
+}
+
+
 
 @media screen and (max-width:1399px) {
   
