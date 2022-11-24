@@ -290,14 +290,15 @@ ul li {
 #deal-img .carousel-indicators {
     margin-bottom: 0;
 }
-.dropdown-menu {
+.dropdown .dropdown-menu {
     background: #F16214;
-    color: #ccc;
     padding: 0;
     border:0;
     border-radius: 0;
 }
-
+.dropdown-menu a.dropdown-item {
+    border-bottom: 1px solid #ccc;
+}
 
 @media screen and (max-width:1399px) {
   
