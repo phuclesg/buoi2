@@ -287,7 +287,9 @@ ul li {
 #deal-img .carousel-indicators .active {
     background-color: #040406;
 }
-
+#deal-img .carousel-indicators {
+    margin-bottom: 0;
+}
 
 @media screen and (max-width:1399px) {
   
