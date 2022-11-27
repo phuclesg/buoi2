@@ -351,6 +351,22 @@ ul li {
     color: #fff;
     margin: 10px 10px 0 0
 }
+.bestseller-pr {
+    margin-top: 20px;
+}
+.bestseller-img {
+    background-color: #F7F7F7;
+}
+.bestseller-content h3 {
+    font-size: 15px;
+    color: #000;
+    font-weight: normal;
+}
+.bestseller-content p {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+}
 
 
 @media screen and (max-width:1399px) {
